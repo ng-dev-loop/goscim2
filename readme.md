@@ -14,7 +14,7 @@ go get github.com/ng-dev-loop/goscim2
 
 1. 同步数据库地址
 ```
-key_data_source_name="root:123456@tcp(127.0.0.1:9306)/dbname?charset=utf8"
+key_data_source_name="root:123456@tcp(127.0.0.1:3306)/dbname?charset=utf8"
 ```
 
 2. 配置九州云腾APP的API Key和API Scret

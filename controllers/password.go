@@ -3,7 +3,7 @@ package controllers
 import (
 	"fmt"
 	"github.com/astaxie/beego"
-	"github.com/ng-dev/goscim2/models"
+	"github.com/ng-dev-loop/goscim2/models"
 )
 
 // Operations about Users

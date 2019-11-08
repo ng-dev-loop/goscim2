@@ -2,6 +2,13 @@
 
 适配九州云腾SSO的SCIM服务器
 
+```
+go get github.com/astaxie/beego
+go get github.com/Go-SQL-Driver/MySQL
+go get github.com/satori/go.uuid
+go get github.com/go-xorm/xorm
+go get github.com/ng-dev-loop/goscim2
+```
 
 配置
 

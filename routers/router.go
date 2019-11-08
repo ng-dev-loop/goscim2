@@ -13,8 +13,8 @@ import (
 	"github.com/astaxie/beego/context"
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/plugins/auth"
-	"github.com/ng-dev/goscim2/app_config"
-	"github.com/ng-dev/goscim2/controllers"
+	"github.com/ng-dev-loop/goscim2/app_config"
+	"github.com/ng-dev-loop/goscim2/controllers"
 	uuid "github.com/satori/go.uuid"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	"github.com/ng-dev/goscim2/models"
+	"github.com/ng-dev-loop/goscim2/models"
 	"net/http"
 )
 

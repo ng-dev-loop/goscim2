@@ -4,7 +4,6 @@ import (
 	_ "github.com/Go-SQL-Driver/MySQL"
 	"github.com/astaxie/beego/logs"
 	"github.com/go-xorm/xorm"
-	"xorm.io/core"
 )
 
 var (
@@ -29,11 +28,10 @@ func InitDataBase(driverName string, dataSourceName string, showSQL bool) error 
 		logs.GetBeeLogger().Info("database type: %v", DBEngine.Dialect().DBType())
 	}
 
-	DBEngine.SetLogLevel(core.LOG_WARNING)
 	DBEngine.ShowSQL(showSQL)
 	DBEngine.SetMaxIdleConns(5)
 	DBEngine.SetMaxOpenConns(5)
-	DBEngine.StoreEngine("MyISAM") //InnoDB
+	//DBEngine.StoreEngine("MyISAM") //InnoDB
 
 	/*s := DBEngine.NewSession()
 	result, err := s.Query("select name from userinfo;")

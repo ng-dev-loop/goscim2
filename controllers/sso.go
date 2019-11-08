@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
-	"github.com/ng-dev/goscim2/app_config"
+	"github.com/ng-dev-loop/goscim2/app_config"
 	"io/ioutil"
 	"net/http"
 )

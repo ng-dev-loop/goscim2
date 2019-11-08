@@ -12,7 +12,7 @@ go get github.com/ng-dev-loop/goscim2
 
 配置
 
-1. 同步smarteye数据库地址
+1. 同步数据库地址
 ```
 key_data_source_name="root:123456@tcp(127.0.0.1:9306)/dbname?charset=utf8"
 ```
